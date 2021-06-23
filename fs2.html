@@ -1,0 +1,70 @@
+<html>
+
+<head>
+  <big><b> NEW BEATS ACCOUNT </b></big>
+</head>
+
+<body>
+ 
+
+    <p>
+      <label>First Name
+        <input type="text" name="First Name" placeholder="Enter First Name" maximumlength="10" required>
+      </label>
+    </p>
+    <p>
+      <label>Last Name
+        <input type="text" name="Last Name" placeholder="Enter Last Name" maximumlength="10" required>
+      </label>
+    </p>
+
+    <p>
+      <label>Phone Number +91
+        <input type="tel" name="phone_number" maximumlength="10">
+      </label>
+    </p>
+
+    <p>
+      <label>Email
+        <input type="email" name="email_address" placeholder="someone@mail.com">
+      </label>
+    </p>
+
+    <fieldset>
+      <legend>Gender</legend>
+      <p><label> <input type="radio" name="gender" required value="male"> Male </label></p>
+      <p><label> <input type="radio" name="gender" required value="female"> Female </label></p>
+      <p><label> <input type="radio" name="gender" required value="others"> Others </label></p>
+    </fieldset><br>
+
+    <fieldset>
+
+      <p><label> <input type="checkbox" name="extras" value="Terms & Conditions" onclick="alert('I Agree !');"> <a href="fs3.html"><button>Terms & Conditions</button></a> </label></p>
+
+    </fieldset>
+
+    <p>
+      <label>Date of Birth & Time
+        <input type="datetime-local" name="DOB" required>
+      </label>
+    </p>
+
+    <p>
+      <label>Annual Income
+        <select id="income status" name="income status">
+          <option value="" selected="selected">Select One</option>
+
+          <option value="> 5 lakhs">below 5 lakhs</option>
+          <option value="< 5 lakhs">above 5 lakhs</option>
+          <option value="< 10 lakhs">above 10 lakhs</option>
+        </select>
+      </label>
+    </p>
+    <p>
+    <input type="button" value="Register" onclick="alert('Beats Account created successfully!');">
+    </p>
+    <p><button> Cancel</button></p>
+
+</form>
+</body>
+</html>
